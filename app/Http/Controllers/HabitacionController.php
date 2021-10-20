@@ -14,7 +14,7 @@ class HabitacionController extends Controller
      */
     public function index()
     {
-        //
+        return view('habitacion.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class HabitacionController extends Controller
      */
     public function create()
     {
-        //
+        return view('habitacion.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class HabitacionController extends Controller
      */
     public function edit(Habitacion $habitacion)
     {
-        //
+        return view('habitacion.edit');
     }
 
     /**

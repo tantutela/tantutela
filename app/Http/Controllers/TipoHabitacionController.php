@@ -14,7 +14,7 @@ class TipoHabitacionController extends Controller
      */
     public function index()
     {
-        //
+        return view('tipohabitacion.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class TipoHabitacionController extends Controller
      */
     public function create()
     {
-        //
+        return view('tipohabitacion.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class TipoHabitacionController extends Controller
      */
     public function edit(TipoHabitacion $tipoHabitacion)
     {
-        //
+        return view('tipohabitacion.edit');
     }
 
     /**

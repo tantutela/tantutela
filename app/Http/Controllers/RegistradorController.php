@@ -14,7 +14,7 @@ class RegistradorController extends Controller
      */
     public function index()
     {
-        //
+        return view('registrador.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class RegistradorController extends Controller
      */
     public function create()
     {
-        //
+        return view('registrador.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class RegistradorController extends Controller
      */
     public function edit(Registrador $registrador)
     {
-        //
+        return view('registrador.create');
     }
 
     /**

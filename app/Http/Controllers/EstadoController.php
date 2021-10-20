@@ -14,7 +14,7 @@ class EstadoController extends Controller
      */
     public function index()
     {
-        //
+        return view('estado.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class EstadoController extends Controller
      */
     public function create()
     {
-        //
+        return view('estado.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class EstadoController extends Controller
      */
     public function edit(Estado $estado)
     {
-        //
+        return view('estado.edit');
     }
 
     /**

@@ -14,7 +14,7 @@ class NacionalidadController extends Controller
      */
     public function index()
     {
-        //
+        return view('nacionalidad.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class NacionalidadController extends Controller
      */
     public function create()
     {
-        //
+        return view('nacionalidad.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class NacionalidadController extends Controller
      */
     public function edit(Nacionalidad $nacionalidad)
     {
-        //
+        return view('nacionalidad.edit');
     }
 
     /**

@@ -14,7 +14,7 @@ class AlquilerController extends Controller
      */
     public function index()
     {
-        //
+        return view('alquiler.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class AlquilerController extends Controller
      */
     public function create()
     {
-        //
+        return view('alquiler.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class AlquilerController extends Controller
      */
     public function edit(Alquiler $alquiler)
     {
-        //
+        return view('alquiler.edit');
     }
 
     /**
